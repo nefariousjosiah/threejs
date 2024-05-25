@@ -10,8 +10,9 @@ const scene = new THREE.Scene();
 //Object 
 
 const geometry = new THREE.BoxGeometry(1, 1, 1);
-const material = new THREE.MeshBasicMaterial({ color: "white"});
+const material = new THREE.MeshBasicMaterial({ color: "pink"});
 const mesh = new THREE.Mesh(geometry, material);
+
 scene.add(mesh);
 
 //Sizes
@@ -36,7 +37,6 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(sizes.width, sizes.height);
 
 renderer.render (scene, camera);
-
 
 
 
