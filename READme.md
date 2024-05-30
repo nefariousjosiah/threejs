@@ -1,1 +1,1 @@
-Progress has been slow lately, Overwhelmed and will probably be taking a 2 week break.
+Update, have been understanding mesh and camera and a little bit of blender, updates pushing out tomorrow.
