@@ -10,7 +10,7 @@ const scene = new THREE.Scene();
 //Object 
 
 const geometry = new THREE.BoxGeometry(1, 1, 1);
-const material = new THREE.MeshBasicMaterial({ color: "pink"});
+const material = new THREE.MeshBasicMaterial({ color: "white"});
 const mesh = new THREE.Mesh(geometry, material);
 
 scene.add(mesh);
