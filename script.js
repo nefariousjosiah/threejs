@@ -32,20 +32,24 @@ mesh.position.z = -1;
 
 // Renderer
 
-const tick = () =>
-    {
-        console.log('tick');
-        window.requestAnimationFrame(tick);
-    };
-    tick()
-
-
 const renderer = new THREE.WebGLRenderer({
     canvas: canvas
 });
-
 renderer.setSize(sizes.width, sizes.height);
-renderer.render (scene, camera);
+
+//animations
+
+const tick = () =>
+    {
+        mesh.rotation.y += 0.01
+
+        renderer.render (scene, camera)
+  
+
+        window.requestAnimationFrame(tick)
+    }
+    tick()
+
 
 
 
