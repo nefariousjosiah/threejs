@@ -18,8 +18,8 @@ scene.add(mesh);
 //Sizes
 
 const sizes = {
-        width: 800,
-        height: 600
+        width: window.innerWidth,
+        height: window.innerHeight,
 };
 
 //Camera
@@ -27,15 +27,24 @@ const sizes = {
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height);
 scene.add(camera);
 camera.position.z = 3;
+mesh.position.y = 1;
+mesh.position.z = -1;
 
 // Renderer
+
+const tick = () =>
+    {
+        console.log('tick');
+        window.requestAnimationFrame(tick);
+    };
+    tick()
+
 
 const renderer = new THREE.WebGLRenderer({
     canvas: canvas
 });
 
 renderer.setSize(sizes.width, sizes.height);
-
 renderer.render (scene, camera);
 
 
