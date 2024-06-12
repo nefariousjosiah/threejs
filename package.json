@@ -1,12 +1,10 @@
 {
-  "homepage": "https://nefariousjosiah.github.io/threejs-showcase/",
   "name": "threejs",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +13,5 @@
   "dependencies": {
     "three": "^0.164.1",
     "vite": "^5.2.11"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
