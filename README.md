@@ -1,4 +1,5 @@
-# Three.js projects in order timeline. To view my current project in progress, please go to nefariousjosiah.com
+# Three.js projects in order timeline. 
+# To view my current project in progress, please go to nefariousjosiah.com
 
 
 # The project that made me want to create in threejs.
