@@ -6,3 +6,10 @@
 
 # 6 - 11 - 2024
 ![giphy(1)](https://github.com/nefariousjosiah/threejs/assets/148295938/15b47ae4-57cb-4437-80d3-064d71f663c9)
+
+
+# 6 - 21 - 2024
+
+
+https://github.com/nefariousjosiah/threejs/assets/148295938/a17cd425-94a9-4755-8544-189fe47e8856
+
